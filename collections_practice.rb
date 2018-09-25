@@ -71,8 +71,6 @@ def organize_schools(array)
     location = v[:location]
     output[location] = [] if output[location] == nil
     output[location] << k
-    binding.pry
   end
   output
-  binding.pry
 end
