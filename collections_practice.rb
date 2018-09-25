@@ -52,9 +52,7 @@ def merge_data(array1,array2)
   data = {}
   array1.each do |x|
     name = x[:first_name]
-    array2.each do |y|
-      x.merge!(y[name])
-    end
+    array2.each { |y| x.merge!(y[name]) }
     output << x
   end
 end
