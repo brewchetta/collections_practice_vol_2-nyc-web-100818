@@ -54,7 +54,7 @@ def merge_data(array1,array2)
 end
 
 def find_cool(array)
-  array.find{|k,v| v == "cool"}
+  array.each do |k,v|
 end
 
 def organize_schools(array)
