@@ -49,6 +49,7 @@ end
 def merge_data(array1,array2)
   array2.each do |person|
     array1.each do |name|
+      if name[]
     end
   end
 end
