@@ -54,6 +54,8 @@ def merge_data(array1,array2)
     name = x[:name]
     array2.each do |y|
       data = y[name]
+    end
+    output << {name => data}
   end
 end
 
