@@ -67,8 +67,6 @@ end
 
 def organize_schools(array)
   array.each do |x|
-    x.each do |y|
-      binding.pry
-    end
+    binding
   end 
 end
