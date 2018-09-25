@@ -56,7 +56,7 @@ def merge_data(array1,array2)
       data = y[name]
       binding.pry
     end
-    output << {name:name, data}
+    output << {name => data}
   end
 end
 
