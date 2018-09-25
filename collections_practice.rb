@@ -41,7 +41,7 @@ def count_elements(array)
       count = 0
     end
     count += 1
-    output << {count: count, name: name} if output.last = x
+    output << {count: count, name: name} if output.last == x
   end
   output
 end
