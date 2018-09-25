@@ -32,11 +32,12 @@ end
 
 def count_elements(array)
   output = []
+  count = 0
+  name = ""
   array.each do |x|
-    count = 0
-    name = ""
     if x[:name] != name
       name = x[:name]
+      count = 0
     end
     count += 1
     output << {count: count, name: name}
