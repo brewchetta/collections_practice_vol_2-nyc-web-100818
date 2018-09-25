@@ -68,6 +68,7 @@ end
 def organize_schools(array)
   output = {}
   array.each do |x|
+    binding.pry
     x[:location] = location
     output["location"] << x.key
   end
