@@ -42,6 +42,7 @@ def count_elements(array)
     count += 1
     output << {count: count, name: name}
   end
+  output
 end
 
 def merge_data(array1,array2)
