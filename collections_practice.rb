@@ -54,7 +54,6 @@ def merge_data(array1,array2)
     name = x[:first_name]
     array2.each do |y|
       x.merge!(y[name])
-      binding.pry
     end
     output << x
   end
