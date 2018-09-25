@@ -54,10 +54,10 @@ def merge_data(array1,array2)
     name = x[:first_name]
     array2.each do |y|
       data = y[name]
-      x.merge(data)
+      x.merge!(data)
       binding.pry
     end
-    output << {name => data}
+    output << x
   end
 end
 
