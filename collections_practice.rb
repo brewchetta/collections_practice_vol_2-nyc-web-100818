@@ -47,8 +47,8 @@ def count_elements(array)
 end
 
 def merge_data(array1,array2)
-  array2.each do |person|
-    array1.each do |name|
+  array2.each do |data|
+    array1.each do |key|
       if name[:name] = person[]
     end
   end
