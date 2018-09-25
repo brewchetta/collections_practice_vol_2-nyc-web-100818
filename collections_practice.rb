@@ -74,3 +74,13 @@ def organize_schools(array)
   end
   output
 end
+
+=begin
+
+Hey! Not sure if anyone reads these! I'd strongly recommend placing
+this lesson way later in the course, I got stuck and moved on from it, and I
+noticed a good number of other folks did as well. I'm sure y'all are constantly
+rebuilding your courses but I think future students would appreciate it!
+
+-Chett
+=end 
