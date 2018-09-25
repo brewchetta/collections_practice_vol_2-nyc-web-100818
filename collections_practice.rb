@@ -33,13 +33,14 @@ end
 def count_elements(array)
   output = []
   array.each do |x|
+    output << {name: x[:name], count: = 1} if output[:name] == nil
   end
 end
 
 def merge_data(array1,array2)
   array2.each do |person|
     array1.each do |name|
-      
+
 end
 
 def find_cool(array)
