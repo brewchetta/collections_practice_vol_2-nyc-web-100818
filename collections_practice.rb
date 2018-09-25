@@ -38,7 +38,8 @@ end
 
 def merge_data(array1,array2)
   array2.each do |person|
-    person.
+    array1.each do |name|
+      
 end
 
 def find_cool(array)
