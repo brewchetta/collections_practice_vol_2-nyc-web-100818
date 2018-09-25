@@ -52,6 +52,8 @@ def merge_data(array1,array2)
   array1.each do |key|
     name = array1[:name]
     array2.each do |x|
+      if x = name
+        data = 
   end
 end
 
