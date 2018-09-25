@@ -53,8 +53,7 @@ def merge_data(array1,array2)
   array1.each do |x|
     name = x[:first_name]
     array2.each do |y|
-      data = y[name]
-      x.merge!(data).sort!
+      x.merge!(y[name])
       binding.pry
     end
     output << x
