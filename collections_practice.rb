@@ -39,6 +39,7 @@ def count_elements(array)
       name = x[:name]
     end
     count += 1
+    output << {count: count, name: name}
   end
 end
 
