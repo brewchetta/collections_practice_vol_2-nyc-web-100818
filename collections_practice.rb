@@ -60,5 +60,3 @@ end
 def organize_schools(array)
   array.sort
 end
-
-binding.pry
