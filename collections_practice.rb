@@ -81,4 +81,4 @@ noticed a good number of other folks did as well. I'm sure y'all are constantly
 rebuilding your courses but I think future students would appreciate it!
 
 -Chett
-=end 
+=end
