@@ -33,7 +33,7 @@ end
 def count_elements(array)
   output = []
   array.each do |x|
-    output << {name: x[:name], count: = 1} if output[:name] == nil
+    output << {name: x[:name], count: = 1} if output.find[name:] == nil
   end
 end
 
