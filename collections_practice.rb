@@ -66,8 +66,9 @@ def find_cool(array)
 end
 
 def organize_schools(array)
-  output = []
+  output = {}
   array.each do |x|
-    
+    x[:location] = location
+    output["location"] << x.key
   end
 end
