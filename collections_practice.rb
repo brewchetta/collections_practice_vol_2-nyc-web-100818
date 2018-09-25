@@ -72,4 +72,5 @@ def organize_schools(array)
     location = v[:location]
     output[location] << k
   end
+  output
 end
