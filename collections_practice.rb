@@ -3,9 +3,7 @@ require 'pry'
 def begins_with_r(array)
   arr = []
   array.each do |x|
-    if x[0].downcase == ("r" || "R")
-      arr.push(x)
-    end
+    arr.push(x) if x[0].downcase == ("r" || "R")
   end
   arr == array
 end
