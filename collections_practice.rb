@@ -48,6 +48,7 @@ end
 
 def merge_data(array1,array2)
   output = []
+  name = ""
   array1.each do |key|
     name = array1[:name]
   end
