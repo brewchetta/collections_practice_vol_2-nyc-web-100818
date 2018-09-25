@@ -66,7 +66,8 @@ def find_cool(array)
 end
 
 def organize_schools(array)
+  output = []
   array.each do |x|
-    binding
-  end 
+    
+  end
 end
