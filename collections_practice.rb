@@ -50,7 +50,7 @@ def merge_data(array1,array2)
   output = []
   array2.each do |data|
     array1.each do |key|
-      if name[:name] = person[]
+      if name[:name] = person
     end
   end
 end
