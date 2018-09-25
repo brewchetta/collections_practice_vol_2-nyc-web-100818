@@ -49,11 +49,11 @@ end
 def merge_data(array1,array2)
   output = []
   name = ""
-  array1.each do |key|
+  array1.each do |key,value|
     name = array1[:name]
     array2.each do |x|
       if x = name
-        data = 
+        data =
   end
 end
 
