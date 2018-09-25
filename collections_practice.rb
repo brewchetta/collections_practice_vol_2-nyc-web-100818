@@ -37,7 +37,8 @@ def count_elements(array)
 end
 
 def merge_data(array1,array2)
-  array2.each do |person, data|
+  array2.each do |person|
+    person.
 end
 
 def find_cool(array)
