@@ -69,6 +69,7 @@ def organize_schools(array)
   output = {}
   array.each do |k,v|
     location = v[:location]
+    output[location] = [] if output[location] == nil
     output[location] << k
     binding.pry
   end
